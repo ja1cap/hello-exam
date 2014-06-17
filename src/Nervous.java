@@ -22,9 +22,13 @@ public class Nervous {
 
         Nervous nervous = (Nervous) o;
 
-        if (type != null ? !type.equals(nervous.type) : nervous.type != null) return false;
+        if(type != null && nervous.type != null){
+            return type.equals(nervous.type);
+        } else if (type == null && nervous.type == null){
+            return true;
+        }
 
-        return true;
+        return false;
 
     }
 

@@ -12,4 +12,6 @@ public class Obvious {
     public int hashCode() {
         return 31 * a + (int) b;
     }
+
 }
+

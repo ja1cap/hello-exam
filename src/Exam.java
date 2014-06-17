@@ -8,7 +8,14 @@ import java.util.Date;
 
 public class Exam extends Hope implements Rage {
 
+    public Exam() {
+        super();
+    }
+
     public static void main(String[] args){
+
+        Hole hole = new Hole();
+        System.out.println(hole.isUnrated());
 
         /**
          * A
